@@ -1,0 +1,195 @@
+body{
+    font-family: sans-serif;
+    padding-top: 200px;
+    margin: 0;
+    background: linear-gradient(to right, rgb(255, 255, 255) 0%, rgb(255, 228, 228) 100%)   ;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.blurline{
+    display: inline-block;
+    position: relative;
+    top: -10px;
+    margin-left: 10px;
+    width: 100px;
+    height: 6px;
+    background-color: rgb(121, 18, 18);
+    filter: blur(4px);
+    border-radius: 4px;
+}
+.clearfix{
+    clear: both;
+}
+.button{
+    border: none;
+    background: linear-gradient(to right,rgb(218, 5, 207) 0%,yellow 51%,#e61313 100%);
+    background-size: 200% auto  ;
+    color: #ffffff;
+        font-weight: 500;
+        font-size: 14px;
+        padding: 20px 40px;
+        cursor: pointer;
+        border-radius: 50px;
+        text-transform: uppercase;
+        text-decoration: none;
+        margin-top: 30px;
+}
+.button:hover {
+    background-position: right center;  
+}
+/* Main Header */
+
+.main-header {
+   width: 100%;
+    position: fixed;
+    top: 0 ;
+    left: 0;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(114, 70, 20, 0.534);
+    z-index: 1000;
+
+}
+.main-header_logo{
+    display: inline-block;
+    vertical-align: middle;
+    
+ 
+}
+.main-header_logo img{
+    display: inline-block;
+    width: 100px;
+}
+.main-nav {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+   
+      
+}
+.nav-item {
+    display: inline-block;
+    padding: 10px;
+}
+.main-nav ul{
+    list-style: none;
+}
+.main-nav li{
+    display: inline-block;
+   
+}
+.main-nav a{
+    text-decoration: none;
+    margin-right: 30px;
+    color: rgb(138, 71, 46);
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+   
+}
+.main-nav a:hover {
+    color: rgb(124, 15, 15);
+}
+/* Main section */
+.main-section {
+    padding: 100px 30px ;
+ 
+}
+.main-section > div {
+    width: 50%;
+    float: left;
+}
+.main-section_img{
+    display: inline-block;
+    width: 100%;
+
+}
+.main-section_img,
+.main-section_content{
+   width: 50%;
+}
+.main-section_img img{
+    background-color: rgb(138, 71, 46);
+    border-radius: 1000px 1000px 10px;
+    box-shadow: 10px 10px 20px rgba(138, 71, 46, 0.5);
+}
+.main-section_title{
+    
+    color: rgb(124, 15, 15);
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.main-section_subtitle
+{
+    margin-top: 20px;
+    color: rgb(124, 102, 102);
+    font-size: 14px;
+    line-height: 27px;
+}
+.main-h1{
+    display: inline;
+
+}
+/* Puppies section */
+
+.puppies {
+    padding: 200px 30px;
+}
+.puppies-item{
+    display: inline-block;
+    width: 20%;
+    margin-right: 4%;
+    box-sizing: border-box;
+    
+}
+.puppies-item_img img {
+    display: block;
+    width: 100%;
+   
+   
+}
+.puppies-item_info {  
+    padding: 20px;
+    background-color: rgb(253, 216, 216);
+  
+}
+.puppies-item:hover {
+    box-shadow: 8px 10px 20px rgb(167, 142, 142);
+   
+}
+.puppies-item:hover .puppies-item_info ,
+.puppies-item:hover .puppies-item_name ,
+.puppies-item:hover .puppies-item_description ,
+.puppies-item:hover .puppies-item_link {
+
+    background-color:  rgb(124, 15, 15);
+    color: #ffffff;
+}
+.puppies-item_main-info span{
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+}
+.puppies-item_name {
+    color: rgb(124, 15, 15);
+    font-size: 18px;
+    margin-top: 20px;
+}
+.puppies-item_description {
+    font-size: 14px;
+    line-height: 27px;
+    margin-top: 10px;
+    color: #4e4e4e;
+}
+.puppies-item_link {
+    display: inline-block;
+    margin-top: 20px;
+    color: rgb(18, 57, 116);
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
